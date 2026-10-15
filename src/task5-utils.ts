@@ -25,8 +25,7 @@ export function sortBooks(books: Book[], sortType: "year" | "rating"): Book[] {
 }
 
 // ------------------------------------------------------------
-// TODO 4: Сборка (композиция). Новой логики здесь НЕТ!
-// ------------------------------------------------------------
+/** @deprecated пока не используется, задел на фичу "Быстрый поиск" */
 export function filterAndSortBooks(
   books: Book[],
   query: string,
